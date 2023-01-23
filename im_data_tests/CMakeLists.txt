@@ -25,7 +25,7 @@ remove (TestsToRun ${PROJECT_NAME}.cpp)
 # Add all the ADD_TEST for each test
 foreach (test ${TestsToRun})
     get_filename_component (TName ${test} NAME_WE)
-    add_test (NAME ${TName} COMMAND ${PROJECT_NAME} ${TName})
+    add_test (NAME "${PROJECT_NAME}_${TName}" COMMAND ${PROJECT_NAME} ${TName})
 endforeach ()
 
 
