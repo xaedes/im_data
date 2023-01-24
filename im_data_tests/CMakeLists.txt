@@ -10,6 +10,10 @@ create_test_sourcelist (Tests
     ${PROJECT_NAME}.cpp
     # add tests here
     draft_01.cpp
+    draft_02.cpp
+    draft_03.cpp
+    draft_04.cpp
+    # draft_05.cpp 
 )
 
 # add the executable
